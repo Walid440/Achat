@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage('Pulling from git...'){
+        stage('get chekout git...'){
             steps{
                git branch : 'main',
                 url : 'https://github.com/medaziz161/Achat'
