@@ -5,7 +5,7 @@ pipeline {
         stage('Pulling from git...'){
             steps{
                git branch : 'main',
-                url : 'https://github.com/THE-B-M-A-K-E-R-S/Jenkins-pipelines'
+                url : 'https://github.com/medaziz161/Achat'
             }
         }
         
